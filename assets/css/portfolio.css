@@ -1,0 +1,90 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.image {
+    width: 50%;
+    margin: 20px 0px 25px 40px;  
+}
+
+.image-label {
+    width: 50%;
+    position: relative;
+}
+
+.image-label a {
+    display: block;
+    position: absolute;
+    top: 133px;
+    z-index: 3;
+    text-align: center;
+    width: 50%;
+    font: 125%/200% 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 0px 0px 40px;
+}
+
+div.gallery {
+    position: relative;
+    margin: 0px;
+    float: left;
+    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+    div.gallery {
+        position: relative;
+        width: auto;
+        margin: 0px;
+        z-index: 2;
+    }
+
+    .image {
+        width: auto%;
+        margin: 20px 0px 25px 40px;  
+    }
+
+    .image-label {
+        width: auto;
+        position: relative;
+    }
+
+    .image-label a {
+        position: absolute;
+        top: 100px;
+    }
+  }
+
+
+@media screen and (max-width: 640px) {
+    div.gallery {
+        position: relative;
+        width: auto;
+        margin: 0px;
+        z-index: 2;
+    }
+
+    .image-label {
+        width: auto;
+        position: relative;
+    }
+
+    .image-label a {
+        position: absolute;
+        top: 100px;
+    }
+  }
