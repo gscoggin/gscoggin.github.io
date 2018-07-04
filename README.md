@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Homework assignment incorporating Media Queries
+# Bootstrap-Portfolio
+Homework assignment incorporating Bootstrap css
